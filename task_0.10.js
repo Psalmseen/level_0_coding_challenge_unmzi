@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Level 0 Coding challenge Task 0.10</title>
-    <script>
         function checkCommonLetters(str1, str2){
             const arrayOfString1 = str1.split("")
             const arrayOfString2 = str2.split("")
@@ -22,10 +14,3 @@
             console.log([...new Set(common)])
         }
         checkCommonLetters("labiel", "trailera")
-    </script>
-</head>
-<body>
-    <center> <h1>TASK 0.10 </h1></center>
-    <p> Make a function that takes two strings as input, and outputs the common characters/letters that they share. (For example, Input: ‘house’, ‘computers’ . Output: ‘Common letters: o, u, e, s’) </p> 
-</body>
-</html>

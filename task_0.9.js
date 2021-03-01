@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Level 0 Coding challenge Task 0.9</title>
-    <script>
-        function printVowel(str){
+       function printVowel(str){
             const arrayOfString = str.split("");
             const vowels =[]
             for(i=0; i < arrayOfString.length; i++){
@@ -23,10 +15,3 @@
             console.log(vowels)
         }
         printVowel("baller A G aiou")
-    </script>
-</head>
-<body>
-    <center> <h1>TASK 0.9 </h1></center>
-     <p> Write a function that takes in a string and then prints out all the vowels in the string. Make sure it can deal with capital letters and small letters.</p>
-</body>
-</html>
