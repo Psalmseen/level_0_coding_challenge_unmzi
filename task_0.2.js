@@ -7,4 +7,4 @@
             console.log("the value of y is " + y)
             console.log("the value of z is " + z)
             console.log("the value of a is " + a)
-            console.log("the value of b is " + b)
+            console.log("the value of b is " + b);
